@@ -1,0 +1,33 @@
+:root {
+    /* Typography */
+
+    /* Base scale */
+
+    font-size: 14px;
+
+    /* Major third type scale - 1.25 
+    
+    --f8: 5.96rem;  = 83.45px
+    --f7: 4.768rem; = 66.76px 
+    --f6: 3.815rem; = 53.41px
+    --f5: 3.052rem; = 42.72px
+    --f4: 2.441rem; = 34.18px
+    --f3: 1.953rem; = 27.34px
+    --f2: 1.563rem; = 21.88px
+    --f1: 1.25rem;  = 17.50px
+    --f0: 1rem;     = 14px
+    --f-1: 0.8rem;  = 11.20px
+    
+    */
+
+    --f8: 5.96rem;
+    --f7: 4.768rem;
+    --f6: 3.815rem;
+    --f5: 3.052rem;
+    --f4: 2.441rem;
+    --f3: 1.953rem;
+    --f2: 1.563rem;
+    --f1: 1.25rem;
+    --f0: 1rem;
+    --f-1: 0.8rem;
+}
