@@ -1,0 +1,42 @@
+:root {
+
+    /* Because we use rem across the app, our spacing scale should also 
+    use rem and be base don the type scale so that they harmoniously sync up. */
+
+    /* Major third type scale - 1.25 
+    
+    --sp8: 5.96rem;  = 83.45px
+    --sp7: 4.768rem; = 66.76px 
+    --sp6: 3.815rem; = 53.41px
+    --sp5: 3.052rem; = 42.72px
+    --sp4: 2.441rem; = 34.18px
+    --sp3: 1.953rem; = 27.34px
+    --sp2: 1.563rem; = 21.88px
+    --sp1: 1.25rem;  = 17.50px
+    --sp0: 1rem;     = 14px
+    --sp-1: 0.8rem;  = 11.20px
+    --sp-2: 0.64rem/;= 8.96px
+    --sp-3: 0.512rem;= 7.17px
+    --sp-4: 0.41rem; = 5.73px
+    --sp-5: 0.328rem;= 4.59px
+    --sp-6: 0.21rem; = 3.67px
+    
+    */
+
+    --sp-8: 5.96rem;
+    --sp7: 4.768rem;
+    --sp6: 3.815rem;
+    --sp5: 3.052rem;
+    --sp4: 2.441rem;
+    --sp3: 1.953rem;
+    --sp2: 1.563rem;
+    --sp1: 1.25rem;
+    --sp0: 1rem;
+    --sp-1: 0.8rem;
+    --sp-2: 0.64rem/;
+    --sp-3: 0.512rem;
+    --sp-4: 0.41rem;
+    --sp-5: 0.328rem;
+    --sp-6: 0.21rem;
+
+}
