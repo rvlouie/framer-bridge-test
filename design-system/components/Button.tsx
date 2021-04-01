@@ -26,9 +26,8 @@ export const Button: React.FC<Props> = ({
   kind
 }) => (
   <StyledButton
-    className={`${fluid ? "fluid" : ""} ${disabled ? "disabled" : ""} ${
-      kind ? kind : ""
-    }`}
+    className={`${fluid ? "fluid" : ""} ${disabled ? "disabled" : ""} ${kind ? kind : ""
+      }`}
   >
     {text || children}
   </StyledButton>
@@ -72,7 +71,7 @@ const StyledButton = styled.button`
 
   /* Primary styles */
   &.primary {
-    background: ${theme.color.primary};
+    background: #242424;
     color: #fff;
   }
   &.primary:hover {
