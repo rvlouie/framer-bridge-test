@@ -2,7 +2,6 @@ import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
 import { Button } from '../design-system/components/Button/Button';
-import Play from '../design-system/components/Icons/Play'
 
 
 export default {
@@ -33,9 +32,3 @@ Danger.args = {
   kind: 'danger'
 };
 
-export const Icon = Template.bind({});
-Icon.args = {
-  children: <Play />,
-  kind: 'secondary',
-  contentType: 'icon'
-}

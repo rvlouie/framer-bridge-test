@@ -147,140 +147,6 @@
                 "__class" : "CodeComponentNode",
                 "$control__contentType" : {
                   "type" : "enum",
-                  "value" : "icon"
-                },
-                "$control__disabled" : {
-                  "type" : "boolean",
-                  "value" : false
-                },
-                "$control__fluid" : {
-                  "type" : "boolean",
-                  "value" : true
-                },
-                "$control__kind" : {
-                  "type" : "enum",
-                  "value" : "secondary"
-                },
-                "$control__text" : {
-                  "type" : "string",
-                  "value" : ""
-                },
-                "aspectRatio" : null,
-                "bottom" : null,
-                "centerAnchorX" : 0.4150000000000002,
-                "centerAnchorY" : 0.4700000000000002,
-                "clip" : true,
-                "codeComponentIdentifier" : ".\/Button.tsx_Button",
-                "codeComponentPackageVersion" : null,
-                "codeOverrideEnabled" : false,
-                "constraintsLocked" : false,
-                "duplicatedFrom" : [
-                  "fgCZg7OEQ"
-                ],
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "height" : 37,
-                "heightType" : 0,
-                "id" : "V6MmpzMmV",
-                "intrinsicHeight" : 60,
-                "intrinsicWidth" : null,
-                "left" : 25,
-                "locked" : false,
-                "name" : "Button",
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "rRjARKy3M",
-                "previewSettings" : null,
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "right" : 59,
-                "rotation" : 0,
-                "top" : null,
-                "visible" : true,
-                "width" : 116,
-                "widthType" : 0
-              }
-            ],
-            "clip" : true,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "duplicatedFrom" : [
-              "OM40QZetW"
-            ],
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "white",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImageOriginalName" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "framePreset" : null,
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 200,
-            "heightType" : 0,
-            "id" : "rRjARKy3M",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : -153,
-            "locked" : false,
-            "name" : "Button",
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "iEDNh42Sf-page",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : null,
-            "right" : null,
-            "rotation" : 0,
-            "top" : -527,
-            "visible" : true,
-            "width" : 200,
-            "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingMode" : "normal",
-            "bottom" : null,
-            "centerAnchorX" : 0,
-            "centerAnchorY" : 0,
-            "children" : [
-              {
-                "__class" : "CodeComponentNode",
-                "$control__contentType" : {
-                  "type" : "enum",
                   "value" : "default"
                 },
                 "$control__disabled" : {
@@ -545,7 +411,7 @@
                 "__class" : "CodeComponentNode",
                 "$control__contentType" : {
                   "type" : "enum",
-                  "value" : "icon"
+                  "value" : "default"
                 },
                 "$control__disabled" : {
                   "type" : "boolean",
@@ -1124,15 +990,15 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.95500000000000018,
-            "centerAnchorY" : 0.10500000000000022,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
             "clip" : true,
-            "codeComponentIdentifier" : ".\/Play.tsx_Play",
+            "codeComponentIdentifier" : ".\/IconButton.tsx_IconButton",
             "codeComponentPackageVersion" : null,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
             "duplicatedFrom" : [
-              "O2guaYFjx"
+              "sEXGlvPvS"
             ],
             "exportOptions" : [
 
@@ -1145,12 +1011,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 24,
+            "height" : 41,
             "heightType" : 0,
-            "id" : "TyFwiV4ML",
+            "id" : "b9t4qVl2K",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 148,
+            "left" : -74,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -1166,9 +1032,9 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : -625,
+            "top" : -421,
             "visible" : true,
-            "width" : 24,
+            "width" : 41,
             "widthType" : 0
           }
         ],

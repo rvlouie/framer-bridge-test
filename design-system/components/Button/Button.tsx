@@ -1,20 +1,28 @@
 import * as React from "react"
 // import { theme } from "../theme"
+import Play from '../Icons/Play'
 import './Button.css'
 
 // Types
 export type Props = {
   /** Optional string that can be used to set the button value */
-  text?: string
+  text?: string | any
 
   /** Disable button */
   disabled?: boolean
+
+  children?: any
 
   /** Button kind */
   kind?: "primary" | "secondary" | "danger" | "icon"
 
   /** Button content type */
   contentType?: "icon" | "default"
+
+}
+
+export type IconProps = {
+  icon?: Element
 }
 
 // Component
@@ -24,10 +32,16 @@ export const Button = ({
   children,
   kind,
   contentType
-}) => (
+}: Props) => (
   <button className={`button ${disabled ? "disabled" : ""} ${kind ? kind : ""} ${contentType ? contentType : ""}`}>
     {text || children}
   </button>
+)
+
+export const IconButton = ({ icon }: IconProps) => (
+  <Button kind="secondary" contentType="icon">
+    {icon}
+  </Button>
 )
 
 // // Styles
