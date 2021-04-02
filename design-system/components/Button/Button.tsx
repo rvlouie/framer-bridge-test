@@ -1,5 +1,5 @@
 import * as React from "react"
-import { theme } from "../theme"
+// import { theme } from "../theme"
 import './Button.css'
 
 // Types
@@ -7,14 +7,14 @@ export type Props = {
   /** Optional string that can be used to set the button value */
   text?: string
 
-  /** Make button grow to 100% */
-  fluid?: boolean
-
   /** Disable button */
   disabled?: boolean
 
   /** Button kind */
-  kind?: "default" | "primary" | "danger"
+  kind?: "primary" | "secondary" | "danger" | "icon"
+
+  /** Button content type */
+  contentType?: "icon" | "default"
 }
 
 // Component
@@ -22,11 +22,10 @@ export const Button = ({
   text,
   disabled,
   children,
-  kind
+  kind,
+  contentType
 }) => (
-  <button className={`button ${disabled ? "disabled" : ""} ${kind ? kind : ""
-    }`}
-  >
+  <button className={`button ${disabled ? "disabled" : ""} ${kind ? kind : ""} ${contentType ? contentType : ""}`}>
     {text || children}
   </button>
 )

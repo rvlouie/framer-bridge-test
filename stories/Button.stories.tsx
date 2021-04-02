@@ -2,6 +2,8 @@ import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
 import { Button } from '../design-system/components/Button/Button';
+import Play from '../design-system/components/Icons/Play'
+
 
 export default {
   title: 'Example/Button',
@@ -21,17 +23,19 @@ Primary.args = {
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  text: 'Click me',
+  kind: 'secondary'
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
+export const Danger = Template.bind({});
+Danger.args = {
+  text: 'Click me',
+  kind: 'danger'
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
-};
+export const Icon = Template.bind({});
+Icon.args = {
+  children: <Play />,
+  kind: 'secondary',
+  contentType: 'icon'
+}

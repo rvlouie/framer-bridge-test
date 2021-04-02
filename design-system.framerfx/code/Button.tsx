@@ -15,19 +15,23 @@ export class Button extends React.Component<Props> {
   static defaultProps: Props = {
     width: 150,
     height: 48,
-    disabled: false,
-    fluid: true,
-    text: "Button"
+    text: "Button",
+    kind: "primary",
+    contentType: "default"
   }
 
   static propertyControls: PropertyControls<Props> = {
     text: { type: ControlType.String, title: "Text" },
     kind: {
       type: ControlType.Enum,
-      options: ["default", "primary", "danger"],
-      optionTitles: ["Default", "Primary", "Danger"]
+      options: ["secondary", "primary", "danger"],
+      optionTitles: ["Secondary", "Primary", "Danger"]
+    },
+    contentType: {
+      type: ControlType.Enum,
+      options: ["icon", "default"],
+      optionTitles: ["Icon", "Default"]
     },
     disabled: { type: ControlType.Boolean, title: "Disabled" },
-    fluid: { type: ControlType.Boolean, title: "Fluid" }
   }
 }

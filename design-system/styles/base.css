@@ -3,8 +3,12 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Gilroy';
+    padding: 0;
+    margin: 0;
 }
 
 div, span, p, button, li, ul {
     font-family: 'Inter';
+    padding: 0;
+    margin: 0;
 }
