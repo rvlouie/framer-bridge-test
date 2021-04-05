@@ -10,15 +10,15 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Build
-        uses: framer/bridge@master
+        uses: rvlouie/framer-bridge-test@master
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
           args: build design-system.framerfx
 
       - name: Publish
-        uses: framer/bridge@master
+        uses: rvlouie/framer-bridge-test@master
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: publish design-system.framerfx --yes
+          args: publish design-system.framerfx --yes --team=d6a1774d-5b3e-3678-8413-d5dded926a42
