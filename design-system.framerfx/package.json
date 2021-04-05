@@ -1,6 +1,6 @@
 {
-	"main": "dist/index.js",
 	"license": "MIT",
+	"main": "dist/index.js",
 	"devDependencies": {
 		"@types/react": "^16.4.16"
 	},
@@ -14,7 +14,8 @@
 		"styled-components": "^4.2.0"
 	},
 	"framer": {
-		"id": "116e443c-6f86-4622-b36a-7c05d6ba0a6f"
+		"displayName": "Framer Bridge Test"
 	},
-	"author": "Rick Louie"
+	"author": "Rick Louie",
+	"name": "@framer/m0olu8qc.framer-bridge-test"
 }

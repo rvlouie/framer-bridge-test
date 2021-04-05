@@ -1,6 +1,8 @@
 import * as React from "react"
 // import { theme } from "../theme"
 import Play from '../Icons/Play'
+import Context from '../Icons/Context'
+import Download from '../Icons/Download'
 import './Button.css'
 
 // Types
@@ -22,7 +24,7 @@ export type Props = {
 }
 
 export type IconProps = {
-  icon?: Element
+  icon?: React.ReactNode
 }
 
 // Component
@@ -38,9 +40,17 @@ export const Button = ({
   </button>
 )
 
-export const IconButton = ({ icon }: IconProps) => (
+export const IconButton = ({ icon }: IconProps) => ( // this is dumb, do this better
   <Button kind="secondary" contentType="icon">
-    {icon}
+    {icon === "play" &&
+      <Play />
+    }
+    {icon === "context" &&
+      <Context />
+    }
+    {icon === "download" &&
+      <Download />
+    }
   </Button>
 )
 

@@ -57,6 +57,7 @@
 .button.icon {
     border-radius: 100%;
     padding: var(--sp-3);
-    width: 41px;
-    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
