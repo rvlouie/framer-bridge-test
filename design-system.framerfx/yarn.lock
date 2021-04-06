@@ -42,6 +42,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
   integrity sha512-4zAPlpDEh2VwXswwr/t8xGNDGg8RQiPxtxZ3qQEXyQsBV39ptTdESCjuBvGze1nLMVrxmTIKmnO/nAV8Tqjjzg==
 
+"@framer/framer.default@^1.106.0":
+  version "1.106.0"
+  resolved "https://registry.framer.com/@framer/framer.default/-/@framer/framer.default-1.106.0.tgz#d66709b8f419bc88665a461b9f3900c0f141d26c"
+  integrity sha512-LQjoFz1S8/HYX7zvbdPiLtECSGlfRVwgWdBWfQ+VtwUVX30Nt2ZRS8v22Y9WeHNpwU7jOYcOgP1bj/c0bl8Afg==
+
 "@types/prop-types@*":
   version "15.5.6"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"

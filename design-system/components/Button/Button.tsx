@@ -6,7 +6,7 @@ import Download from '../Icons/Download'
 import './Button.css'
 
 // Types
-export type Props = {
+export type ButtonProps = {
   /** Optional string that can be used to set the button value */
   text?: string | any
 
@@ -34,7 +34,7 @@ export const Button = ({
   children,
   kind,
   contentType
-}: Props) => (
+}: ButtonProps) => (
   <button className={`button ${disabled ? "disabled" : ""} ${kind ? kind : ""} ${contentType ? contentType : ""}`}>
     {text || children}
   </button>

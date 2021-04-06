@@ -1,20 +1,36 @@
 import * as React from "react"
 import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
+import { ControlType, PropertyControls, Frame } from "framer"
 
 type Props = System.ButtonProps & {
   width: number
   height: number
+  top: number
+}
+
+const style = { // Framer <Frame> overrides
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  padding: "0.5rem",
+  width: "auto",
+  height: "auto",
+  background: "transparent"
 }
 
 export class Button extends React.Component<Props> {
   render() {
-    return <System.Button {...this.props} />
+    return (
+      <Frame style={style} center>
+        <System.Button {...this.props} />
+      </Frame>
+    )
   }
 
   static defaultProps: Props = {
-    width: 150,
-    height: 48,
+    width: 114,
+    height: 35,
+    top: 0,
     text: "Button",
     kind: "primary",
     contentType: "default"
